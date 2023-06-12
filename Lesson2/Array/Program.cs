@@ -7,7 +7,7 @@ int Max(int arg1, int arg2, int arg3)
     return result;
 }
 
-int[] array = {11, 211, 31, 41, 15, 61, 17, 18, 19};
+int[] array = { 11, 211, 31, 41, 15, 61, 17, 18, 19 };
 // array[0] = 12;
 // Console.WriteLine(array[4]);
 
