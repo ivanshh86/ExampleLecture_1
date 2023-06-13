@@ -1,5 +1,4 @@
-﻿using System.Collections.ObjectModel;
-void FillArray(int[] collection)
+﻿void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
