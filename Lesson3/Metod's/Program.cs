@@ -1,4 +1,6 @@
-﻿// Не принимают и не возвращают
+﻿// Методы. Возвращаемые и не возвращаемые
+
+// Не принимают и не возвращают
 
 void Metod1()
 {
@@ -54,3 +56,21 @@ string Method4(int count, string text)
 
 string res = Method4(10, "asdf");
 Console.WriteLine(res);
+
+
+
+// Принимает и возвращает
+
+string Method4_1(int count, string text)
+{
+
+    string result = string.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+
+string ress = Method4_1(10, "qwerty, ");
+Console.WriteLine(ress);
